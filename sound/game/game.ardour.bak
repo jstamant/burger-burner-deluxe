@@ -1,0 +1,474 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Session version="6000" name="game" sample-rate="44100" end-is-free="0" session-range-is-free="0" id-counter="2143" name-counter="2" event-counter="1957305" vca-counter="1">
+  <ProgramVersion created-with="Ardour 6.9" modified-with="Ardour 6.9"/>
+  <EngineHints backend="Pulseaudio" input-device="Default Playback" output-device="Default Playback"/>
+  <MIDIPorts>
+    <Port name="MIDI Clock out" direction="output"/>
+    <Port name="MMC in" direction="input"/>
+    <Port name="MMC out" direction="output"/>
+    <Port name="MTC out" direction="output"/>
+    <Port name="Scene in" direction="input"/>
+    <Port name="Scene out" direction="output"/>
+    <Port name="x-virtual-keyboard" direction="output">
+      <Connection other="ardour:Einswei/midi_in 1"/>
+    </Port>
+  </MIDIPorts>
+  <Config>
+    <Option name="use-region-fades" value="1"/>
+    <Option name="use-transport-fades" value="1"/>
+    <Option name="use-monitor-fades" value="1"/>
+    <Option name="native-file-data-format" value="FormatFloat"/>
+    <Option name="native-file-header-format" value="WAVE"/>
+    <Option name="auto-play" value="0"/>
+    <Option name="auto-return" value="0"/>
+    <Option name="auto-input" value="1"/>
+    <Option name="punch-in" value="0"/>
+    <Option name="punch-out" value="0"/>
+    <Option name="count-in" value="0"/>
+    <Option name="session-monitoring" value=""/>
+    <Option name="layered-record-mode" value="0"/>
+    <Option name="subframes-per-frame" value="100"/>
+    <Option name="timecode-format" value="timecode_30"/>
+    <Option name="minitimeline-span" value="120"/>
+    <Option name="raid-path" value=""/>
+    <Option name="audio-search-path" value=""/>
+    <Option name="midi-search-path" value=""/>
+    <Option name="track-name-number" value="0"/>
+    <Option name="track-name-take" value="1"/>
+    <Option name="take-name" value="Take1"/>
+    <Option name="jack-time-master" value="1"/>
+    <Option name="use-video-sync" value="0"/>
+    <Option name="video-pullup" value="0"/>
+    <Option name="external-sync" value="0"/>
+    <Option name="insert-merge-policy" value="InsertMergeRelax"/>
+    <Option name="timecode-offset" value="0"/>
+    <Option name="timecode-offset-negative" value="1"/>
+    <Option name="slave-timecode-offset" value=" 00:00:00:00"/>
+    <Option name="timecode-generator-offset" value=" 00:00:00:00"/>
+    <Option name="glue-new-markers-to-bars-and-beats" value="0"/>
+    <Option name="midi-copy-is-fork" value="0"/>
+    <Option name="glue-new-regions-to-bars-and-beats" value="0"/>
+    <Option name="realtime-export" value="0"/>
+    <Option name="use-video-file-fps" value="0"/>
+    <Option name="videotimeline-pullup" value="1"/>
+    <Option name="wave-amplitude-zoom" value="0"/>
+    <Option name="wave-zoom-factor" value="2"/>
+    <Option name="show-summary" value="1"/>
+    <Option name="show-group-tabs" value="1"/>
+    <Option name="show-region-fades" value="1"/>
+    <Option name="show-busses-on-meterbridge" value="0"/>
+    <Option name="show-master-on-meterbridge" value="1"/>
+    <Option name="show-midi-on-meterbridge" value="1"/>
+    <Option name="show-rec-on-meterbridge" value="1"/>
+    <Option name="show-mute-on-meterbridge" value="0"/>
+    <Option name="show-solo-on-meterbridge" value="0"/>
+    <Option name="show-monitor-on-meterbridge" value="0"/>
+    <Option name="show-name-on-meterbridge" value="1"/>
+    <Option name="meterbridge-label-height" value="0"/>
+  </Config>
+  <Metadata/>
+  <Sources>
+    <Source name="einswei-1.mid" take-id="" type="midi" flags="Writable" id="295" origin=""/>
+    <Source name="einswei-3.mid" take-id="" type="midi" flags="Writable" id="1179" origin=""/>
+  </Sources>
+  <Regions>
+    <Region name="einswei-1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="12105450" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" tags="" contents="0" start-beats="0" length-beats="549" id="297" type="midi" first-edit="nothing" source-0="295" master-source-0="295"/>
+    <Region name="einswei-1.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="75600" length="10281600" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" tags="" contents="0" start-beats="4" length-beats="544" id="376" type="midi" first-edit="nothing" source-0="295" master-source-0="295"/>
+    <Region name="einswei-1.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="1" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="10356327" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" tags="" contents="0" start-beats="0" length-beats="547.95380952380958" id="625" type="midi" first-edit="nothing" source-0="295" master-source-0="295"/>
+    <Region name="einswei-1.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="10356327" length="19773" position="10356327" beat="547.95380952380958" sync-position="10356327" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" tags="" contents="0" start-beats="547.95380952380958" length-beats="1.0461904761904179" id="628" type="midi" first-edit="nothing" source-0="295" master-source-0="295"/>
+    <Region name="einswei-1.4" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="1" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="10356327" length="19220" position="10356327" beat="547.95380952380958" sync-position="10356327" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="1" tags="" contents="0" start-beats="547.95380952380958" length-beats="1.0169312169310842" id="633" type="midi" first-edit="nothing" source-0="295" master-source-0="295"/>
+    <Region name="einswei-1.5" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="1" hidden="0" position-locked="0" valid-transients="0" start="10375547" length="553" position="10375547" beat="548.97074074074067" sync-position="10375547" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="2" tags="" contents="0" start-beats="548.97074074074067" length-beats="0.029259259259333703" id="636" type="midi" first-edit="nothing" source-0="295" master-source-0="295"/>
+    <Region name="einswei-1.6" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="75600" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" tags="" contents="0" start-beats="0" length-beats="4" id="649" type="midi" first-edit="nothing" source-0="295" master-source-0="295"/>
+    <Region name="einswei-3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="1" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="10376100" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" tags="" contents="0" start-beats="0" length-beats="549" id="1181" type="midi" first-edit="nothing" source-0="1179" master-source-0="1179"/>
+    <Region name="einswei-3.1" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="10376100" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" tags="" contents="0" start-beats="0" length-beats="549" id="1264" type="midi" first-edit="nothing" source-0="1179" master-source-0="1179"/>
+    <Region name="einswei-3.2" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="10376100" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" tags="" contents="0" start-beats="0" length-beats="549" id="2095" type="midi" first-edit="nothing" source-0="1179" master-source-0="1179"/>
+  </Regions>
+  <Selection>
+    <StripableAutomationControl stripable="302" control="0" order="8"/>
+  </Selection>
+  <Locations>
+    <Location id="503" name="session" start="75600" end="10054800" flags="IsSessionRange" locked="0" position-lock-style="AudioTime" timestamp="1643322903"/>
+    <Location id="682" name="Loop" start="378000" end="10054800" flags="IsAutoLoop" locked="0" position-lock-style="AudioTime" timestamp="1643324007"/>
+    <Location id="2127" name="Start" start="75600" end="378000" flags="IsRangeMarker" locked="0" position-lock-style="AudioTime" timestamp="1643325745"/>
+  </Locations>
+  <Bundles/>
+  <VCAManager/>
+  <Routes>
+    <Route version="6000" id="68" name="Master" default-type="audio" strict-io="1" volume-applies-to-output="1" active="1" denormal-protection="0" meter-point="MeterOutput" disk-io-point="DiskIOPreFader" meter-type="MeterK14">
+      <PresentationInfo order="0" flags="MasterOut,OrderSet" color="4222009087"/>
+      <Controllable name="solo" id="76" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="82" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="84" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="Master" id="96" direction="Input" default-type="audio">
+        <Port type="audio" name="Master/audio_in 1">
+          <Connection other="Einswei/audio_out 1"/>
+        </Port>
+        <Port type="audio" name="Master/audio_in 2">
+          <Connection other="Einswei/audio_out 2"/>
+        </Port>
+      </IO>
+      <IO name="Master" id="97" direction="Output" default-type="audio">
+        <Port type="audio" name="Master/audio_out 1">
+          <Connection other="system:playback_1"/>
+        </Port>
+        <Port type="audio" name="Master/audio_out 2">
+          <Connection other="system:playback_2"/>
+        </Port>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="78" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="80" flags="Toggle" value="0" phase-invert="00"/>
+      <Controllable name="mastervolume" id="104" flags="GainLike,NotAutomatable" value="1"/>
+      <Automation>
+        <AutomationList automation-id="solo" id="75" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-iso" id="81" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-safe" id="83" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="mute" id="77" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="phase" id="79" interpolation-style="Discrete" state="Off"/>
+      </Automation>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="87" flags="" value="0.5"/>
+        <Controllable name="pan-width" id="91" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="89" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="93" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="95" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="86" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-elevation" id="88" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-width" id="90" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-frontback" id="92" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-lfe" id="94" interpolation-style="Linear" state="Off"/>
+        </Automation>
+      </Pannable>
+      <Processor id="99" name="Polarity" active="1" user-latency="0" use-user-latency="0" type="polarity"/>
+      <Processor id="100" name="Amp" active="1" user-latency="0" use-user-latency="0" type="trim">
+        <Automation>
+          <AutomationList automation-id="trim" id="73" interpolation-style="Logarithmic" state="Off"/>
+        </Automation>
+        <Controllable name="trimcontrol" id="74" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="98" name="Amp" active="1" user-latency="0" use-user-latency="0" type="amp">
+        <Automation>
+          <AutomationList automation-id="gain" id="71" interpolation-style="Exponential" state="Off"/>
+        </Automation>
+        <Controllable name="gaincontrol" id="72" flags="GainLike" value="1"/>
+      </Processor>
+      <Processor id="102" name="Master" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Master" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+      </Processor>
+      <Processor id="101" name="meter-Master" active="1" user-latency="0" use-user-latency="0" type="meter"/>
+      <Slavable/>
+    </Route>
+    <Route version="6000" id="302" name="Einswei" default-type="midi" strict-io="1" active="1" denormal-protection="0" meter-point="MeterPostFader" disk-io-point="DiskIOPreFader" meter-type="MeterPeak" midi-playlist="347" saved-meter-point="MeterPostFader" alignment-choice="Automatic" playback-channel-mode="AllChannels" capture-channel-mode="AllChannels" playback-channel-mask="0xffff" capture-channel-mask="0xffff" note-mode="Sustained" step-editing="0" input-active="1" restore-pgm="1">
+      <PresentationInfo order="1" flags="MidiTrack,OrderSet" color="2732956927"/>
+      <Controllable name="solo" id="310" flags="Toggle,RealTime" value="0" self-solo="0" soloed-by-upstream="0" soloed-by-downstream="0"/>
+      <Controllable name="solo-iso" id="316" flags="Toggle,RealTime" value="0" solo-isolated="0"/>
+      <Controllable name="solo-safe" id="318" flags="Toggle" value="0" solo-safe="0"/>
+      <IO name="Einswei" id="330" direction="Input" default-type="midi">
+        <Port type="midi" name="Einswei/midi_in 1">
+          <Connection other="x-virtual-keyboard"/>
+        </Port>
+      </IO>
+      <IO name="Einswei" id="331" direction="Output" default-type="midi">
+        <Port type="audio" name="Einswei/audio_out 1">
+          <Connection other="Master/audio_in 1"/>
+        </Port>
+        <Port type="audio" name="Einswei/audio_out 2">
+          <Connection other="Master/audio_in 2"/>
+        </Port>
+        <Port type="midi" name="Einswei/midi_out 1"/>
+      </IO>
+      <MuteMaster mute-point="PostFader,Listen,Main" muted="0"/>
+      <Controllable name="mute" id="312" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="phase" id="314" flags="Toggle" value="0" phase-invert=""/>
+      <Automation>
+        <AutomationList automation-id="solo" id="309" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-iso" id="315" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="solo-safe" id="317" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="mute" id="311" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-enable" id="341" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="rec-safe" id="343" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="phase" id="313" interpolation-style="Discrete" state="Off"/>
+        <AutomationList automation-id="monitor" id="345" interpolation-style="Discrete" state="Off"/>
+      </Automation>
+      <Pannable>
+        <Controllable name="pan-azimuth" id="321" flags="" value="0.5"/>
+        <Controllable name="pan-width" id="325" flags="" value="0"/>
+        <Controllable name="pan-elevation" id="323" flags="" value="0"/>
+        <Controllable name="pan-frontback" id="327" flags="" value="0"/>
+        <Controllable name="pan-lfe" id="329" flags="" value="0"/>
+        <Automation>
+          <AutomationList automation-id="pan-azimuth" id="320" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-elevation" id="322" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-width" id="324" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-frontback" id="326" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="pan-lfe" id="328" interpolation-style="Linear" state="Off"/>
+        </Automation>
+      </Pannable>
+      <Processor id="340" name="recorder:Einswei" active="1" user-latency="0" use-user-latency="0" type="diskwriter" record-safe="0"/>
+      <Processor id="339" name="player:Einswei" active="1" user-latency="0" use-user-latency="0" type="diskreader"/>
+      <Processor id="333" name="Polarity" active="1" user-latency="0" use-user-latency="0" type="polarity"/>
+      <Processor id="369" name="General MIDI Synth" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="http://gareus.org/oss/lv2/gmsynth" count="1" custom="0">
+        <ConfiguredInput>
+          <Channels type="midi" count="1"/>
+        </ConfiguredInput>
+        <CustomSinks>
+          <Channels type="midi" count="1"/>
+        </CustomSinks>
+        <ConfiguredOutput>
+          <Channels type="audio" count="2"/>
+          <Channels type="midi" count="1"/>
+        </ConfiguredOutput>
+        <PresetOutput/>
+        <InputMap-0>
+          <Channelmap type="midi" from="0" to="0"/>
+        </InputMap-0>
+        <OutputMap-0>
+          <Channelmap type="audio" from="0" to="0"/>
+          <Channelmap type="audio" from="1" to="1"/>
+        </OutputMap-0>
+        <ThruMap/>
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="0"/>
+      </Processor>
+      <Processor id="332" name="Amp" active="1" user-latency="0" use-user-latency="0" type="amp">
+        <Automation>
+          <AutomationList automation-id="gain" id="305" interpolation-style="Exponential" state="Off"/>
+        </Automation>
+        <Controllable name="gaincontrol" id="306" flags="GainLike" value="0.6652451753616333"/>
+      </Processor>
+      <Processor id="728" name="ACE Compressor (stereo)" active="1" user-latency="0" use-user-latency="0" type="lv2" unique-id="urn:ardour:a-comp#stereo" count="1" custom="0">
+        <Automation>
+          <AutomationList automation-id="parameter-0" id="729" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-1" id="731" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-2" id="733" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-3" id="735" interpolation-style="Logarithmic" state="Off"/>
+          <AutomationList automation-id="parameter-4" id="737" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-5" id="739" interpolation-style="Linear" state="Off"/>
+          <AutomationList automation-id="parameter-9" id="741" interpolation-style="Discrete" state="Off"/>
+          <AutomationList automation-id="parameter-10" id="743" interpolation-style="Discrete" state="Off"/>
+        </Automation>
+        <ConfiguredInput>
+          <Channels type="audio" count="2"/>
+          <Channels type="midi" count="1"/>
+        </ConfiguredInput>
+        <CustomSinks>
+          <Channels type="audio" count="3"/>
+        </CustomSinks>
+        <ConfiguredOutput>
+          <Channels type="audio" count="2"/>
+          <Channels type="midi" count="1"/>
+        </ConfiguredOutput>
+        <PresetOutput/>
+        <InputMap-0>
+          <Channelmap type="audio" from="0" to="0"/>
+          <Channelmap type="audio" from="1" to="1"/>
+          <Channelmap type="audio" from="2" to="2"/>
+        </InputMap-0>
+        <OutputMap-0>
+          <Channelmap type="audio" from="0" to="0"/>
+          <Channelmap type="audio" from="1" to="1"/>
+        </OutputMap-0>
+        <ThruMap/>
+        <Processor id="745" name="SC Einswei/ACE Compressor (stereo) 1" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="1" type="sidechain">
+          <IO name="SC Einswei/ACE Compressor (stereo) 1" id="746" direction="Input" default-type="audio" pretty-name="SC ACE Compressor (stereo)">
+            <Port type="audio" name="SC Einswei/ACE Compressor (stereo) 1/audio_in 1"/>
+          </IO>
+        </Processor>
+        <lv2 last-preset-uri="" last-preset-label="" parameter-changed-since-last-preset="1">
+          <Port symbol="att" value="10"/>
+          <Port symbol="rel" value="80"/>
+          <Port symbol="kn" value="3.2000000476837158"/>
+          <Port symbol="rat" value="4"/>
+          <Port symbol="thr" value="-12.000011444091797"/>
+          <Port symbol="mak" value="0"/>
+          <Port symbol="sidech" value="0"/>
+          <Port symbol="enable" value="1"/>
+        </lv2>
+        <Controllable name="Attack" id="730" flags="" value="10" parameter="0" symbol="att"/>
+        <Controllable name="Release" id="732" flags="" value="80" parameter="1" symbol="rel"/>
+        <Controllable name="Knee" id="734" flags="" value="3.2000000476837158" parameter="2" symbol="kn"/>
+        <Controllable name="Ratio" id="736" flags="" value="4" parameter="3" symbol="rat"/>
+        <Controllable name="Threshold" id="738" flags="" value="-12.000011444091797" parameter="4" symbol="thr"/>
+        <Controllable name="Makeup" id="740" flags="" value="0" parameter="5" symbol="mak"/>
+        <Controllable name="Sidechain" id="742" flags="Toggle" value="0" parameter="9" symbol="sidech"/>
+        <Controllable name="Enable" id="744" flags="Toggle" value="1" parameter="10" symbol="enable"/>
+      </Processor>
+      <Processor id="336" name="meter-MIDI 1" active="1" user-latency="0" use-user-latency="0" type="meter"/>
+      <Processor id="337" name="Einswei" active="1" user-latency="0" use-user-latency="0" own-input="1" own-output="0" output="Einswei" type="main-outs" role="Main">
+        <PannerShell bypassed="0" user-panner="" linked-to-route="1"/>
+      </Processor>
+      <Slavable/>
+      <Controllable name="monitor" id="346" flags="RealTime" value="0" monitoring=""/>
+      <Controllable name="rec-safe" id="344" flags="Toggle,RealTime" value="0"/>
+      <Controllable name="rec-enable" id="342" flags="Toggle,RealTime" value="0"/>
+    </Route>
+  </Routes>
+  <Playlists>
+    <Playlist id="347" name="einswei-1-t1" type="midi" orig-track-id="302" pgroup-id="2022-01-27 16.35.03" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="einswei-3.3" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="0" length="10376100" position="0" beat="0" sync-position="0" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" tags="" contents="0" start-beats="0" length-beats="549" id="2109" type="midi" first-edit="nothing" source-0="1179" master-source-0="1179"/>
+    </Playlist>
+  </Playlists>
+  <UnusedPlaylists>
+    <Playlist id="1231" name="einswei-3-t1" type="midi" orig-track-id="1186" pgroup-id="2022-01-27 17.19.38" shared-with-ids="" frozen="0" combine-ops="0">
+      <Region name="einswei-1.7" muted="0" opaque="1" locked="0" video-locked="0" automatic="0" whole-file="0" import="0" external="1" sync-marked="0" left-of-split="0" right-of-split="0" hidden="0" position-locked="0" valid-transients="0" start="75600" length="10281600" position="4560" beat="0.24126984126984127" sync-position="75600" ancestral-start="0" ancestral-length="0" stretch="1" shift="1" positional-lock-style="MusicTime" layering-index="0" tags="" contents="0" start-beats="4" length-beats="544" id="2102" type="midi" first-edit="nothing" source-0="295" master-source-0="295"/>
+    </Playlist>
+  </UnusedPlaylists>
+  <RouteGroups/>
+  <Click>
+    <IO name="Click" id="65" direction="Output" default-type="audio">
+      <Port type="audio" name="Click/audio_out 1">
+        <Connection other="system:playback_1"/>
+      </Port>
+      <Port type="audio" name="Click/audio_out 2">
+        <Connection other="system:playback_2"/>
+      </Port>
+    </IO>
+    <Processor id="66" name="Amp" active="1" user-latency="0" use-user-latency="0" type="amp">
+      <Automation>
+        <AutomationList automation-id="gain" id="63" interpolation-style="Exponential" state="Off"/>
+      </Automation>
+      <Controllable name="gaincontrol" id="64" flags="GainLike" value="1"/>
+    </Processor>
+  </Click>
+  <Speakers>
+    <Speaker azimuth="240" elevation="0" distance="1"/>
+    <Speaker azimuth="120" elevation="0" distance="1"/>
+  </Speakers>
+  <TempoMap>
+    <Tempo pulse="0" frame="0" movable="0" lock-style="AudioTime" beats-per-minute="140" note-type="4" clamped="0" end-beats-per-minute="140" active="1" locked-to-meter="1"/>
+    <Meter pulse="0" frame="0" movable="0" lock-style="AudioTime" bbt="1|1|0" beat="0" note-type="4" divisions-per-bar="4"/>
+  </TempoMap>
+  <ControlProtocols>
+    <Protocol name="Ableton Push 2" active="0" session-state="0"/>
+    <Protocol name="ContourDesign" active="0" session-state="0"/>
+    <Protocol name="Generic MIDI" active="0" session-state="0"/>
+    <Protocol name="Mackie" active="0" session-state="0"/>
+    <Protocol name="Novation Launch Control XL" active="0" session-state="0"/>
+    <Protocol name="Open Sound Control (OSC)" active="0" session-state="0"/>
+    <Protocol name="PreSonus FaderPort" active="0" session-state="0"/>
+    <Protocol name="PreSonus FaderPort16" active="0" session-state="0"/>
+    <Protocol name="PreSonus FaderPort2" active="0" session-state="0"/>
+    <Protocol name="PreSonus FaderPort8" active="0" session-state="0"/>
+    <Protocol name="Steinberg CC121" active="0" session-state="0"/>
+    <Protocol name="Tascam US-2400" active="0" session-state="0"/>
+    <Protocol name="WebSockets Server (Experimental)" active="0" session-state="0"/>
+  </ControlProtocols>
+  <Extra>
+    <RulerVisibility timecode="1" bbt="1" samples="0" minsec="0" tempo="1" meter="1" marker="1" rangemarker="1" transportmarker="1" cdmarker="1" videotl="0"/>
+    <ClockModes>
+      <Clock name="primary" mode="Timecode" on="1"/>
+      <Clock name="secondary" mode="BBT" on="1"/>
+      <Clock name="bigclock" mode="Timecode" on="1"/>
+      <Clock name="nudge" mode="Timecode" on="1"/>
+      <Clock name="EditorTimeInfo-selection-start" mode="Timecode" on="0"/>
+      <Clock name="EditorTimeInfo-selection-end" mode="Timecode" on="0"/>
+      <Clock name="EditorTimeInfo-selection-length" mode="Timecode" on="0"/>
+      <Clock name="EditorTimeInfo-punch-start" mode="Timecode" on="0"/>
+      <Clock name="EditorTimeInfo-punch-end" mode="Timecode" on="0"/>
+      <Clock name="ToolbarTimeInfo-selection-start" mode="Timecode" on="0"/>
+      <Clock name="ToolbarTimeInfo-selection-end" mode="Timecode" on="0"/>
+      <Clock name="ToolbarTimeInfo-selection-length" mode="Timecode" on="0"/>
+    </ClockModes>
+    <ExportRevision revision="1"/>
+    <ExportProfile>
+      <ExportTimespan format="BBT">
+        <Range id="682"/>
+      </ExportTimespan>
+      <ExportChannelConfiguration split="0" channels="2">
+        <Channel number="1">
+          <Port name="Master/audio_out 1"/>
+        </Channel>
+        <Channel number="2">
+          <Port name="Master/audio_out 2"/>
+        </Channel>
+      </ExportChannelConfiguration>
+      <ExportFormat id="5a92bc30-ad31-4e51-82d4-66f0b5d2f9df"/>
+      <ExportFilename>
+        <Folder relative="0" path="/home/jstamant/programming/burger-burner-deluxe/assets"/>
+        <Field name="label" enabled="1" value="einswei-loop-only"/>
+        <Field name="session" enabled="0"/>
+        <Field name="snapshot" enabled="0"/>
+        <Field name="timespan" enabled="0"/>
+        <Field name="revision" enabled="0"/>
+        <Field name="time" enabled="0" value="T_None"/>
+        <Field name="date" enabled="0" value="D_None"/>
+      </ExportFilename>
+    </ExportProfile>
+    <UI>
+      <Window name="key-editor" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="session-options-editor" visible="0" x-off="0" y-off="230" x-size="701" y-size="353"/>
+      <Window name="speaker-config" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="about" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="add-routes" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="add-video" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="inspector" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="audio-midi-setup" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="video-export" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="script-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="bundle-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="locations" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="big-clock" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="big-transport" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="virtual-keyboard" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="audio-connection-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="midi-connection-manager" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="idle-o-meter" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="plugin-manager" visible="0" x-off="658" y-off="259" x-size="646" y-size="600"/>
+      <Window name="plugin-dsp-load" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="dsp-statistics" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="transport-masters" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-68" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="RPM-302" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="P-302-369" visible="0" x-off="43" y-off="89" x-size="742" y-size="280" custom-ui="1"/>
+      <Window name="P-302-728" visible="0" x-off="0" y-off="18" x-size="1076" y-size="464" custom-ui="1"/>
+      <Window name="PM-302-369" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <Window name="PM-302-728" visible="0" x-off="-1" y-off="-1" x-size="-1" y-size="-1"/>
+      <GUIObjectState>
+        <Object id="rtav 68" height="68" visible="1"/>
+        <Object id="automation 72" height="68" visible="0"/>
+        <Object id="automation 74" height="68" visible="0"/>
+        <Object id="automation 68 12/0/0" height="68" visible="0"/>
+        <Object id="automation 87" height="68" visible="0"/>
+        <Object id="strip 68" visible="1">
+          <Object id="processor 98">
+            <Object id="control 72" visible="0"/>
+          </Object>
+        </Object>
+        <Object id="strip 302" visible="1">
+          <Object id="processor 332">
+            <Object id="control 306" visible="0"/>
+          </Object>
+          <Object id="processor 369"/>
+          <Object id="processor 728">
+            <Object id="control 730" visible="0"/>
+            <Object id="control 732" visible="0"/>
+            <Object id="control 734" visible="0"/>
+            <Object id="control 736" visible="0"/>
+            <Object id="control 738" visible="0"/>
+            <Object id="control 740" visible="0"/>
+            <Object id="control 742" visible="0"/>
+            <Object id="control 744" visible="0"/>
+            <Object id="InlineDisplay" visible="1"/>
+          </Object>
+        </Object>
+        <Object id="rtav 302" height="68" visible="1" note-range-min="19" note-range-max="81" midnam-custom-device-mode="" color-mode="MeterColors"/>
+        <Object id="automation 306" height="68" visible="0"/>
+        <Object id="automation 302 12/0/0" height="68" visible="0"/>
+        <Object id="automation 321" height="68" visible="0"/>
+        <Object id="strip 1186" visible="1">
+          <Object id="processor 1216">
+            <Object id="control 1190" visible="0"/>
+          </Object>
+          <Object id="processor 1257"/>
+        </Object>
+        <Object id="strip 2019" visible="1">
+          <Object id="processor 2049">
+            <Object id="control 2023" visible="0"/>
+          </Object>
+        </Object>
+      </GUIObjectState>
+    </UI>
+    <Videomonitor active="0"/>
+  </Extra>
+  <Script lua="Lua 5.3">c2NyaXB0cyA9IHt9IA==</Script>
+</Session>
