@@ -5,11 +5,11 @@ export default class TitleScene extends Phaser.Scene
     }
     preload() {
         //Load images
-        this.load.image('background', 'assets/burgerburner_menu.jpg');
+        this.load.image('title-background', 'assets/burgerburner_menu.jpg');
     }
     create() {
         //Background image for the title screen
-        this.background = this.add.image(400, 300, 'background');
+        this.background = this.add.image(400, 300, 'title-background');
         this.background.setDisplaySize(800, 600);
         this.text = this.add.text(400, 300, 'Click the pointer to start the game', {backgroundColor: '#000', padding: {x:10, y:4}});
         this.text.setPosition(400-this.text.width/2, 300-this.text.height); //Roughly centered
